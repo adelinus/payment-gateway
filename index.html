@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+            <div class="input-box">
+              <label for="full-name">full name:</label>
+              <input type="text" name="" id="full-name" placeholder="John Brown" />
+            </div>
+            <div class="input-box">
+              <label for="email">email:</label>
+              <input type="email" name="" id="email" placeholder="example@example.com" />
+            </div>
+            <div class="input-box">
+              <label for="address">address:</label>
+              <input type="text" name="" id="address" placeholder="number, street" />
+            </div>
+            <div class="input-box">
+              <label for="city">city:</label>
+              <input type="text" name="" id="city" placeholder="New York" />
+            </div>
+            <div class="bicol">
+              <div class="input-box">
+                <label for="state">state:</label>
+                <input type="text" name="" id="state" placeholder="romania" />
+              </div>
+              <div class="input-box">
+                <label for="zip-code">zip code:</label>
+                <input type="text" name="" id="zip-code" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+            <div class="input-box">
+              <span for="">cards accepted:</span>
+              <img src="card_img.png" alt="" />
+            </div>
+            <div class="input-box">
+              <label for="name-on-card">name on card</label>
+              <input type="text" name="" id="name-on-card" placeholder="John Brown" />
+            </div>
+            <div class="input-box">
+              <label for="card-number">credit card number</label>
+              <input type="text" name="" id="card-number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="input-box">
+              <label for="exp-month">exp month:</label>
+              <select name="" id="exp-month">
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+            <div class="bicol">
+              <div class="input-box">
+                <label for="exp-year">exp year:</label>
+                <input type="number" name="" id="exp-year" />
+              </div>
+              <div class="input-box">
+                <label for="ccv">CCV</label>
+                <input type="text" name="" id="ccv" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type="submit" value="Proceed to checkout" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>
